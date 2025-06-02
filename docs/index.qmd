@@ -1,0 +1,289 @@
+---
+title: "Rodrigo Barreiro's Resume"
+---
+
+# Rodrigo Barreiro
+::: {#aboutme}
+- Bioinformatician & Data Scientist 
+- São Paulo - SP, Brasil
+- rodrigoasbarreiro[at]gmail.com
+- [linkedin.com/in/rodrigoasbarreiro/](https://www.linkedin.com/in/rodrigoasbarreiro/)
+- [github.com/barreiro-r/](https://github.com/barreiro-r/)
+:::
+
+Member of the Advanced and Multiomics Analysis Group at Hospital Albert Einstein, where I work as a Data Scientist in the creation of machine learning models for disease risk classification. My skills include programming in Python and R, with a focus on analysis, visualization, and machine learning algorithms. Experience in collaborative projects using Git, AWS, and Docker for the construction of complex cloud pipelines complements my profile.
+
+::: {#skills}
+## Skills
+- Programming:
+    - Python
+    - R
+- Bioinformatics:
+    - Population Genetics
+    - Genomics
+    - Transcriptomics
+    - Hail
+    - PRS
+- Machine Learning: 
+    - Classification
+    - Clustering
+    - Dimensionality reduction
+- Data Visualization:
+    - R (ggplot2, Shiny)
+    - Python (matplotlib, seaborn)
+    - Tableau
+    - Looker
+    - PowerBI
+- DevOps:
+    - Docker
+    - WDL
+    - Git
+- Cloud: 
+    - AWS
+    - Azure
+:::
+
+## Professional Experience 
+::: {.professional-item}
+### Data Scientist _at Hospital Albert Einstein_
+:::: {.date}
+2024 - Actual
+::::
+:::: {.about}
+Research and Development in population genetics; Organization of biobank genetic data;
+Dashboard development; Participate in the creation of risk-classification models of multiplediseases (e.g. breast cancer, type 2 diabetes) using genetic data (PRS) and clinical data.
+::::
+:::
+
+::: {.professional-item}
+### Bioinformatician _at Varsomics_
+:::: {.date}
+2021 - 2024
+::::
+:::: {.about}
+Development and application of polygenic risk score (PRS) for multiple traits in admixed population using Hail pipelines and SABE and UKBB data; Create and execute pipelines in WDL (Workflow Description Language, developed by the Broad institute and used in DNA Nexus platform) in AWS cloud-platform for routine genomic test for Brazilian Rare Genomes Project (GRAR) NGS data (e.g. DRAGEN, variant calling, AWS HealthOmics); Consultancy and gathering user requirements for GWAS and genetic ancestry for external clients; Create reports and documentation for in-house and regulated softwares, Software development and git documentation and repositories for multiple projects; Datathon organization;
+::::
+:::
+
+::: {.professional-item}
+### Bioinformatician _at Genera_
+:::: {.date}
+2021
+::::
+:::: {.about}
+Development of an SQL infrastrucure database for use in ancestry calculator; Acquisition and standardization of genotyping data from scientific articles forthe local database. Creation of a dashboard for assessing the qualityof the database.
+::::
+:::
+
+## Academic Background
+
+::: {.academic-item}
+### PhD in Biochemistry 
+:::: {.date}
+2017 - 2023
+::::
+:::: {.instituition}
+Institute of Chemistry - University of São Paulo / Hospital Sírio Libanês, Brazil
+::::
+:::: {.advisor}
+Advisor: Prof. Dr. Pedro A. F. Galante
+::::
+:::
+
+::: {.academic-item}
+### Visiting Researcher
+:::: {.date}
+2020 - 2021
+::::
+:::: {.instituition}
+University of Texas Health Science Center at San Antonio, EUA
+::::
+:::: {.advisor}
+Advisor: Prof. Dr. Luiz O. F. Penalva
+::::
+:::
+
+::: {.academic-item}
+### Bachelor of Science in Biomedical Sciences
+:::: {.date}
+2012 - 2016
+::::
+:::: {.instituition}
+Institute of Biomedical Sciences - University of São Paulo, Brazil
+::::
+:::: {.advisor}
+Advisor: Prof. Dr. Pedro A. F. Galante
+::::
+:::
+
+## Public Projects
+
+::: {.project-item}
+### 30 Day Chart Challenge
+:::: {.about}
+A collection of data visualizations created for the #30DayChartChallenge. Mixing insight with aesthetics, caffeine optional but recommended.
+::::
+:::: {.links}
+- [github.com/barreiro-r/30-day-chart-challenge](https://github.com/barreiro-r/30-day-chart-challenge)
+- [barreiro-r.github.io/30-day-chart-challenge/](https://barreiro-r.github.io/30-day-chart-challenge/)
+::::	
+:::: {.skills}
+- Data Analysis
+- DataViz
+- R
+- Quarto
+- FrontEnd
+- GitHub
+- Pages Challenge
+::::
+:::
+
+::: {.project-item}
+### Tidy Tuesday
+:::: {.about}
+A collection of my weekly data visualizations and analyses as part of the #TidyTuesday initiative. Each folder contains code, visuals, and insights from exploring diverse datasets using R/Python.
+::::
+:::: {.links}
+- [github.com/barreiro-r/tidytuesday](https://github.com/barreiro-r/tidytuesday)
+- [barreiro-r.github.io/tidytuesday/](https://barreiro-r.github.io/tidytuesday/)
+::::
+:::: {.skills}
+- DataViz
+- R
+- Python
+- Quarto
+- GitHub Pages
+::::
+:::
+
+
+::: {.project-item}
+### Incredible Genome
+:::: {.about}
+This project focuses on creating beautiful, intuitive plots that bring your genomic data to life. It highlights that clear visuals are not just aesthetically pleasing,they're crucial for truly understanding the rich, vibrant narratives embedded in our DNA.
+::::
+:::: {.links}
+- [github.com/barreiro-r/incredible_genome](https://github.com/barreiro-r/incredible_genome)
+::::
+:::: {.skills}
+- Data Analysis
+- DataViz
+- R
+- Python
+- Genomics
+- Illustrator
+::::
+:::
+
+
+::: {.project-item}
+### PRS Explorer
+:::: {.about}
+This project features an interactive dashboard designed to help users understand how various factors influence Polygenic Risk Score (PRS) metrics using simulated data.	
+::::
+:::: {.links}
+- [github.com/barreiro-r/prs-explorer](https://github.com/barreiro-r/prs-explorer)
+- [barreiro-r.shinyapps.io/prs-explorer/](https://barreiro-r.shinyapps.io/prs-explorer/)
+::::
+:::: {.skills}
+- ML Prediction
+- Simulation Data Analysis
+- DataViz
+- R
+- R Shiny
+- Genomics
+- GitHub Pages
+::::
+:::
+
+
+::: {.project-item}
+### Case DataSUS
+:::: {.about}
+In this project, I explore patterns of access, cost, and clinical care across Brazil’s public health system using official data from DATASUS. The analysis focuses on high-complexity outpatient and inpatient treatments, including chemotherapy, immunotherapy, mental health medications, and hospital mortality.
+::::
+:::: {.links}
+- [github.com/barreiro-r/case-datasus](https://github.com/barreiro-r/case-datasus)
+- [barreiro-r.github.io/case-datasus/](https://barreiro-r.github.io/case-datasus/)
+::::
+:::: {.skills}
+- DataSUS
+- Data Analysis
+- DataViz
+- Python
+- Tableau
+- RWD
+- GitHub Pages
+::::
+:::
+
+
+::: {.project-item}
+### Ready Set Plot!
+:::: {.about}
+Ready, set, plot! is a R Shiny web aplication to easily create overlapping set plots such as Venn Diagrams and Euler Plots. It is mainly an aplication based on eulerr R package
+::::
+:::: {.links}
+- [github.com/barreiro-r/ready-set-plot](https://github.com/barreiro-r/ready-set-plot)
+- [barreiro-r.shinyapps.io/ready-set-plot/](https://barreiro-r.shinyapps.io/ready-set-plot/)
+::::
+:::: {.skills}
+- WebTools
+- DataViz
+- R
+- R Shiny
+::::
+:::
+
+## Publications
+
+::: {.publication-item}
+### Assessing the Risk Stratification of Breast Cancer Polygenic Risk Scores in a Brazilian Cohort
+:::: {.about}
+This study validated a 313-variant breast cancer Polygenic Risk Score (PRS) in a Brazilian admixed population (n=853). While the PRS distribution differed from the UK Biobank reference, its predictive power was comparable (AUC ~0.62-0.66), underscoring the need for population-specific PRS validation.
+::::
+:::: {.links}
+- [DOI 10.1016/j.jmoldx.2024.06.002](https://doi.org/10.1016/j.jmoldx.2024.06.002)
+::::
+:::
+
+::: {.publication-item}
+### The paralogues MAGOH and MAGOHB are oncogenic factors in high-grade gliomas and safeguard the splicing of cell division and cell cycle genes
+:::: {.about}
+This research investigated the role of exon junction complex (EJC) paralogs MAGOH and MAGOHB in brain tumor development, finding them highly expressed in glioblastoma (GBM) and associated with poor prognosis in glioma patients. Knockdown of MAGOH/MAGOHB in GBM cells altered splicing profiles, particularly affecting genes involved in cell division and proliferation. The study suggests that high MAGOH/MAGOHB levels are crucial for the splicing fidelity of genes essential for rapid cell growth in GBM, proposing these paralogs as potential therapeutic targets for GBM.
+::::
+:::: {.links}
+- [DOI 10.1080/15476286.2023.2221511](https://doi.org/10.1080/15476286.2023.2221511)
+::::
+:::
+
+::: {.publication-item}
+### Monoallelic deleterious MUTYH germline variants as a driver for tumorigenesis
+:::: {.about}
+This large-scale study of 10,389 cancer patients and 117,000 healthy individuals investigated the cancer risk associated with monoallelic pathogenic MUTYH germline variants. The findings indicate these variants contribute to tumorigenesis via somatic loss of the functional MUTYH allele. Monoallelic carriers showed a higher cancer frequency than the general population, though this varied by tumor type. The characteristic MUTYH mutational signature was present only in tumors with loss of heterozygosity. The study concludes that monoallelic MUTYH carriers have an increased, though overall low, risk of developing tumors, particularly those prone to loss of heterozygosity events like adrenal adenocarcinoma.
+::::
+:::: {.links}
+- [DOI 10.1002/path.5829](https://doi.org/10.1002/path.5829)
+::::
+:::
+
+::: {.publication-item}
+### Synergism of Proneurogenic miRNAs Provides a More Effective Strategy to Target Glioma Stem Cells
+:::: {.about}
+This study demonstrated that a combination of neurogenic miRNAs (miR-124, miR-128, miR-137) is significantly more effective than single miRNAs in suppressing glioma stem cell proliferation and promoting differentiation and radiation response. This highlights the synergistic potential of miRNA combinations for disrupting cancer phenotypes and targeting cancer-initiating cells.
+::::
+:::: {.links}
+- [DOI 10.3390/cancers13020289](https://doi.org/10.3390/cancers13020289)
+::::
+:::
+
+
+::: {.publication-item}
+### Genomic Biomarkers and Underlying Mechanism of Benefit from BCG Immunotherapy in Non-Muscle Invasive Bladder Cancer
+:::: {.about}
+This study identified genomic biomarkers for BCG immunotherapy response in non-muscle invasive bladder cancer (NMIBC). Analyzing pre-treatment tumors (n=35), higher tumor mutation burden (TMB), neoantigen load (NAL), and deleterious DNA damage response (DDR) gene mutations correlated with improved BCG response and recurrence-free survival, suggesting their utility in predicting BCG benefit.
+::::
+:::: {.links}
+- [DOI 10.3233/BLC-200289](https://doi.org/10.3233/BLC-200289)
+::::
+:::
