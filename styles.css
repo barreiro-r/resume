@@ -1,0 +1,266 @@
+/* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    color: #888888;
+}
+
+#title-block-header,
+#toc-title {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h2 {
+    padding-top: 2.5rem;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+h3 em {
+    margin-top: 0px;
+    font-size: 1rem;
+    color: #BBB;
+    font-weight: 400;
+}
+
+.date p {
+    margin: 0px;
+    color: #BBB;
+    font-size: .8em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#quarto-content {
+    padding-top: 100px;
+}
+
+#skills li li {
+    font-weight: 400;
+    margin-top: 3px;
+    margin-inline: 3px;
+    color: #888888;
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+#skills li li:hover {
+    background-color: #dfdae7;
+}
+
+#skills li ul {
+    padding-left: 0px;
+    display: contents;
+}
+
+#skills li ul li:not(:last-child)::after {
+    content: ",";
+}
+
+#skills ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#skills>ul>li {
+    font-weight: 600;
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    color: black
+}
+
+#aboutme ul {
+    padding-left: 0px;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+#aboutme a {
+    color: rgb(81, 69, 100);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted rgb(81, 69, 100);
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+#aboutme a:hover {
+    background-color: #dfdae7;
+}
+
+.professional-item::before {
+    content: "•";
+    color: #dfdae7;
+    font-size: 1.2em;
+    position: absolute;
+    transform: translateX(-34px);
+
+}
+
+.professional-item:not(:first-child) {
+    border-left: 1px solid #dfdae7;
+    transform: translateX(-28px);
+    padding-left: 28px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.professional-item p {
+    margin: 0px;
+}
+
+
+
+.academic-item::before {
+    content: "•";
+    color: #dfdae7;
+    font-size: 1.2em;
+    position: absolute;
+    transform: translateX(-34px);
+
+}
+
+.academic-item:not(:first-child) {
+    border-left: 1px solid #dfdae7;
+    transform: translateX(-28px);
+    padding-left: 28px;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.academic-item p {
+    margin: 0px;
+}
+
+.project-item h3 {
+    font-size: 0.8em;
+}
+
+.project-item li {
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 3px;
+    color: #888888;
+    font-size: 0.6em;
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+.project-item ul {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-item p {
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item ul li:not(:first-child) {
+    margin-left: 3px;
+}
+
+.project-item ul li:not(:last-child)::after {
+    content: ",";
+}
+
+.project-item li:hover {
+    background-color: #dfdae7;
+}
+
+.project-item a {
+    color: rgb(81, 69, 100);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted rgb(81, 69, 100);
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+.publication-item h3 {
+    font-size: 0.8em;
+}
+
+.publication-item ul {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.publication-item a {
+    color: rgb(81, 69, 100);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px dotted rgb(81, 69, 100);
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+.publication-item li {
+    font-weight: 400;
+    margin-top: 3px;
+    margin-right: 3px;
+    color: #888888;
+    font-size: 0.6em;
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+
+.publication-item p {
+    font-size: 0.8em;
+    margin: 0px;
+}
+
+.publication-item {
+    margin-bottom: 30px;
+}
+
+.publication-item li:hover {
+    background-color: #dfdae7;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid rgb(81, 69, 100);
+    color: rgb(81, 69, 100) !important;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a:hover, .sidebar nav[role=doc-toc] ul>li>ul>li>a:hover {
+    color: rgb(81, 69, 100) !important;
+}
