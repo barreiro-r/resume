@@ -61,7 +61,7 @@ h3 em {
 #skills li li {
     font-weight: 400;
     margin-top: 3px;
-    margin-inline: 3px;
+    margin-right: 3px;
     color: #888888;
 
     transition: background-color 0.4s ease-in-out;
@@ -90,7 +90,7 @@ h3 em {
     align-items: baseline;
     display: flex;
     flex-wrap: wrap;
-    color: black
+    color: black;
 }
 
 #aboutme ul {
@@ -126,13 +126,51 @@ h3 em {
     transform: translateX(-28px);
     padding-left: 28px;
     margin: 0px;
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .professional-item p {
     margin: 0px;
 }
 
+.professional-item ul {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.professional-item ul li {
+   margin-bottom: 4px;
+   break-inside: avoid-column;
+}
+
+@media (min-width: 768px) {
+    .responsive-list-css-columns {
+      column-count: 2;
+      column-gap: 30px; /* Adjust as needed */
+    }
+  
+    .responsive-list-css-columns li {
+      /* Optional: prevent items from breaking inside if possible */
+      /* break-inside: avoid-column; */
+      /* page-break-inside: avoid; */
+      /* -webkit-column-break-inside: avoid; */
+    }
+  }
+
+.professional-item li::before {
+    position: absolute;
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+    font-weight: 900;
+    content: "\f061";
+    color: #dfdae7;
+    font-size: 0.6em;
+    transform: translateX(-15px) translateY(5px);
+    
+    
+  }
 
 
 .academic-item::before {
@@ -149,7 +187,7 @@ h3 em {
     transform: translateX(-28px);
     padding-left: 28px;
     margin: 0px;
-    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .academic-item p {
@@ -186,6 +224,7 @@ h3 em {
 }
 
 .project-item {
+    break-inside: avoid-column;
     margin-bottom: 30px;
 }
 
@@ -249,6 +288,7 @@ h3 em {
 }
 
 .publication-item {
+    break-inside: avoid-column;
     margin-bottom: 30px;
 }
 
